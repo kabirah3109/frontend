@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Gemini Assistant Logo</title>
+  <desc>Simple purple chat-bubble monogram logo for Gemini Assistant</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7B61FF" />
+      <stop offset="100%" stop-color="#5A46D9" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- rounded square background -->
+  <rect x="16" y="16" width="224" height="224" rx="46" fill="url(#g1)" filter="url(#shadow)"/>
+
+  <!-- speech bubble cutout -->
+  <path d="M74 90a54 54 0 1 1 108 0 54 54 0 0 1-108 0z" fill="rgba(255,255,255,0.06)" />
+
+  <!-- stylized 'G' monogram -->
+  <g transform="translate(64,64) scale(1.2)">
+    <path d="M48 24c0-13.255-10.745-24-24-24S0 10.745 0 24s10.745 24 24 24c4.97 0 9.565-1.462 13.452-3.984l-4.124-6.056A17.16 17.16 0 0 1 24 42c-9.665 0-17.5-7.835-17.5-17.5S14.335 7 24 7s17.5 7.835 17.5 17.5H24v7.5h24.5c0 0 2.8-0.02 2.8-2.5 0-1.7-1.1-2.7-3-3.5-1.9-.8-4.8-1.5-4.8-1.5z" fill="#FFFFFF" fill-opacity="0.95"/>
+  </g>
+
+  <!-- small accent dot to mimic message indicator -->
+  <circle cx="190" cy="70" r="8" fill="#FFD36B" opacity="0.95" />
+</svg>
